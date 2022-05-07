@@ -9,7 +9,7 @@ def f(n):
         return n
     return f(n-1) + f(n-2) + f(n-3)
 
-# տարբերակ, պոչավո՞ր
+# տարբերակ
 def f(n):
     seq = [0,1,2]
     for i in range(3,n+1):
